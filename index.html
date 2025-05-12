@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siddhant Choudhary | Futuristic Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(ellipse at bottom, #0f2027, #203a43, #2c5364);
+      min-height: 100vh;
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: transparent url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      max-width: 1000px;
+      margin: auto;
+      margin-top: 40px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      backdrop-filter: blur(15px);
+      box-shadow: 0 0 40px rgba(0, 255, 255, 0.1);
+      padding: 40px;
+      z-index: 1;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      padding-bottom: 20px;
+    }
+
+    .header img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid cyan;
+      box-shadow: 0 0 15px cyan;
+    }
+
+    .header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 32px;
+      color: cyan;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section h2 {
+      font-size: 22px;
+      color: #00ffff;
+      border-left: 5px solid #00ffff;
+      padding-left: 12px;
+      margin-bottom: 12px;
+    }
+
+    .section p, .section li {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #d1d1d1;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: rgba(0, 255, 255, 0.2);
+      color: cyan;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      border: 1px solid cyan;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .skills span:hover {
+      background: cyan;
+      color: #000;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    .site-footer {
+      margin-top: 80px;
+      padding: 40px 0;
+      background: rgba(15, 32, 39, 0.95);
+      border-top: 1px solid rgba(0, 255, 255, 0.1);
+    }
+
+    .footer-content {
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 20px;
+    }
+
+    .social-links a {
+      color: #fff;
+      font-size: 1.5rem;
+      transition: 0.3s;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .social-links a:hover {
+      color: #00ffff;
+      transform: translateY(-3px);
+      border-color: #00ffff;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    }
+
+    .footer-info {
+      color: #aaa;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .footer-info p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .social-links {
+        gap: 15px;
+      }
+
+      .social-links a {
+        font-size: 1.2rem;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+
+  <div class="container">
+    <div class="header">
+      <img src="WhatsApp Image 2025-05-10 at 18.42.25_2cde8319.jpg" alt="Profile Photo" id="profile-photo">
+      <div>
+        <h1>Siddhant Choudhary</h1>
+        <p>Aspiring Web Developer & Coding Enthusiast</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong></strong>South Asian University,New Delhi</p>
+      <li>First year</li>
+      <p><strong>Deep Public School, Vasant Kunj, New Delhi</strong></p>
+      <ul>
+        <li>10th Grade (2022): 90%</li>
+        <li>12th Grade (2024): 78%</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Interests</h2>
+      <p>Cricket, Coding, Games, Web Design, Politics, Knowing National & International Issues around us</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>C</span>
+        <span>Python</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Responsive Design</span>
+        <span>Git & GitHub</span>
+        <span>UI/UX</span>
+        <span>Problem Solving</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:siddhantchoudhary268@gmail.com">siddhantchoudhary268@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+918882905506">+91-8882905506</a></p>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a tech enthusiast passionate about web design and coding. I follow politics and world affairs closely and aim to combine technology with awareness to build something impactful. I enjoy team games like cricket and believe in continuous self-improvement and learning.
+      </p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:siddhantchoudhary268@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="footer-info">
+        <p>&copy; 2025 Siddhant Choudhary</p>
+        <p>Designed with <span class="heart">♥</span> and coffee <i class="fas fa-coffee"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
